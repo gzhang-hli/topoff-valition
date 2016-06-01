@@ -26,3 +26,5 @@ Example run:
 test_one_pair_gatk_ivc.hg38.sh 201895694_460283 176501434_459111
 
 stdout: 61.46 60.28 61.46 FAIL
+
+# Usage two: batch processing
