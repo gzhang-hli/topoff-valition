@@ -18,7 +18,7 @@ compare a pair of VCF files that are generated either from GATK/genentech or fro
 
 test_one_pair_gatk_ivc.hg38.sh  sample_key1 sample_key2
 
-input args: sampleID1_executionID2 sampleID2_executionID2
+input args: sampleID1_executionID1 sampleID2_executionID2
 
 stdout: Concordance1 Concordance2 Max_Concordance Validation_status
 
