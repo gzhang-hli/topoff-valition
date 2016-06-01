@@ -13,8 +13,8 @@ bgzip
 giab.hg38.bed 
 genentech.vcf.header
 
-# Usage one: test_one_pair_gatk_ivc.hg38.sh
-compare a pair of VCF files that are generated either from GATK/genentech or from Isaac variant caller (IVC)
+# Usage one:
+compare a pair of VCF files that are generated either from GATK/genentech or from Isaac variant caller (IVC). Currently we use 95% of genotype/marker concordance as the "PASS" validtion threshold. Any concordance number below 95% is considered "FAIL" valition. 
 
 test_one_pair_gatk_ivc.hg38.sh  sample_key1 sample_key2
 
